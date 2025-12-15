@@ -210,11 +210,39 @@ git push origin main --force
 
 ## 🛠️ Supported Characters
 
+| Type | Characters |
+|------|------------|
+| **UPPERCASE** | `A B C D E F G H I J K L M N O P Q R S T U V W X Y Z` |
+| **lowercase** | `a b c d e f g h i j k l m n o p q r s t u v w x y z` |
+| **Numbers** | `0 1 2 3 4 5 6 7 8 9` |
+| **Symbols** | `! . , - _ : / ' "` |
+| **Space** | ` ` (2 pixels wide) |
+
+### Test all characters:
+
+```bash
+./github_pixel_art.sh preview --text "Hello World 2024!" --year 2020
 ```
-A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
-a (lowercase i, r, s, e available)
-0-9 (coming soon)
+
+---
+
+## 👀 View Your Graph
+
+### Link to a specific year:
+
 ```
+https://github.com/YOUR_USERNAME?tab=overview&from=2016-01-01&to=2016-12-31
+```
+
+**Example:** [View ImperialCrise's 2016](https://github.com/ImperialCrise?tab=overview&from=2016-01-01&to=2016-12-31)
+
+### Current year graph badge:
+
+```markdown
+![GitHub Chart](https://ghchart.rshah.org/ImperialCrise)
+```
+
+![GitHub Chart](https://ghchart.rshah.org/ImperialCrise)
 
 ---
 
