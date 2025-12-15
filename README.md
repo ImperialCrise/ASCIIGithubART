@@ -226,26 +226,6 @@ git push origin main --force
 
 ---
 
-## 👀 View Your Graph
-
-### Link to a specific year:
-
-```
-https://github.com/YOUR_USERNAME?tab=overview&from=2016-01-01&to=2016-12-31
-```
-
-**Example:** [View ImperialCrise's 2016](https://github.com/ImperialCrise?tab=overview&from=2016-01-01&to=2016-12-31)
-
-### Current year graph badge:
-
-```markdown
-![GitHub Chart](https://ghchart.rshah.org/ImperialCrise)
-```
-
-![GitHub Chart](https://ghchart.rshah.org/ImperialCrise)
-
----
-
 ## 📋 Requirements
 
 - Bash 4.0+
